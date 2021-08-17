@@ -15,11 +15,11 @@ class GuessingGame
         @num_attempts += 1
         if num == @secret_num
             @game_over = true 
-            print "you win"
+            puts "you win"
         elsif num > @secret_num
-            print "too big"
+            puts "too big"
         else
-            print "too small"
+            puts "too small"
         end
     end
 
