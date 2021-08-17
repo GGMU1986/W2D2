@@ -23,7 +23,7 @@ while hotel.has_vacancy?
   entered_room = gets.chomp
   until hotel.room_exists?(entered_room)
     puts "That room doesn't exist."
-    print "Enter another a room name: "
+    print "Enter another room name: "
     entered_room = gets.chomp
   end
 
